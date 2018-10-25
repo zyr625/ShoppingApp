@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/add"
+            android:id="@+id/add_car"
+            android:layout_toRightOf="@+id/car_price"
+            android:layout_centerVertical="true"
+            />
+        <EditText
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:id="@+id/edit_shop_car"
+            android:layout_toRightOf="@+id/add_car"
+            android:layout_centerVertical="true"
+            android:text="1"
+            android:textSize="14sp"
+            android:gravity="center_horizontal"
+            android:background="@drawable/home_shop_bg"
+            android:inputType="number"
+            />
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/jian"
+            android:id="@+id/jian_car"
+            android:layout_toRightOf="@+id/edit_shop_car"
+            android:layout_centerVertical="true"
+            />
+    </RelativeLayout>
+</RelativeLayout>
